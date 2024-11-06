@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nate-love.com/static/css/main.58aa0354.css",
+    "main.js": "/nate-love.com/static/js/main.75cfa300.js",
+    "index.html": "/nate-love.com/index.html",
+    "main.58aa0354.css.map": "/nate-love.com/static/css/main.58aa0354.css.map",
+    "main.75cfa300.js.map": "/nate-love.com/static/js/main.75cfa300.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58aa0354.css",
+    "static/js/main.75cfa300.js"
+  ]
+}
