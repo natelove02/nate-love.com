@@ -3,13 +3,13 @@ export default function ContactMe() {
     return (
       <section id="Contact" className="contact--section">
         <div>
-          <p className="sub--title">Get In Touch</p>
+          <p className="sub--title"></p>
           <h2>Contact Me</h2>
           <p className="text-lg">
             Email: natelove02@gmail.com
           </p>
           <p className="text-lg">
-            LinkedIn: Nathaniel Love
+            <a href="https://www.linkedin.com/in/nate-love">LinkedIn: Nathaniel Love</a>
           </p>
         </div>
        {/* <form className="contact--form--container">

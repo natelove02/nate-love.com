@@ -10,46 +10,38 @@
             "id": "2",
             "src": "./img/C.png",
             "title": "C/C++",
-            "description": "Gained extensive experience in C and C++ through developing embedded systems, focusing on low-level programming and hardware interfacing. Applied C in various projects like a robotic car, automatic pet feeder, and handheld video game device to optimize system performance, manage memory, and implement real-time operations."
+            "description": "Gained extensive experience in C and C++ by developing embedded systems, focusing on low-level programming and hardware. Applied C, C++, and ARM Assembly language in various projects like a robotic car, automatic pet feeder, and handheld video game device to optimize system performance, manage memory, and implement real-time operations."
         },
         {
             "id": "3",
             "src": "./img/react.png",
-            "title": "Front-End",
-            "description": "Designed a website to display family recipes using HTML, JavaScript, and CSS, showcasing skills in front-end web development."
+            "title": "Web Design",
+            "description": "Designed and deployed this personal website using Node.JS and React. Deployed this app using AWS Route53 DNS services, an EC2 as a VPS, and Caddy as a Reverse-Proxy. Utilised CSS, HTML, and JS to create a reactive and adaptive website that I plan to scale and introduce blog like content on as I complete more projects."
         },
         {
             "id": "4",
             "src": "./img/python.png",
             "title": "Python/Modeling",
-            "description": "Applied Python to solve labs and simple problems during college coursework, developing strong fundamentals in coding. Built a backend using Python with Flask and DynamoDB, enhancing web development skills and backend design. Currently utilizing PyTorch, Beautiful Soup, and pandas to construct a convolutional neural network (CNN), demonstrating proficiency in machine learning and data processing."
+            "description": "Utilized Python to solve labs and problems during college coursework, developing strong fundamentals in coding. Built a backend using Python with Flask and DynamoDB for our senior design project, enhancing web development skills and backend design. Currently utilizing PyTorch, Beautiful Soup, and pandas to construct a convolutional neural network (CNN), demonstrating proficiency in machine learning and data processing."
         }
     ],
     "portfolio": [
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End",
-            "description": "Lorem ipsurm dolor sit amet, consectutur adipiscing elit. Suspensisse varius eim in eros elemntum tristique",
-            "link": "View in Github"
+            "src": "./img/nodejs.jpg",
+            "title": "Personal Website",
+            "description": "Link to this website's code. Node.JS and React app with HTML and CSS to create personal website.",
+            "link": "View in Github",
+            "github": "https://github.com/natelove02/nate-love.com"
+
         },
         {
             "id": "2",
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End",
-            "description": "Lorem ipsurm dolor sit amet, consectutur adipiscing elit. Suspensisse varius eim in eros elemntum tristique"
-        },
-        {
-            "id": "3",
-            "src": "./img/tag-1.png",
-            "title": "Front-End",
-            "description": "Lorem ipsurm dolor sit amet, consectutur adipiscing elit. Suspensisse varius eim in eros elemntum tristique"
-        },
-        {
-            "id": "4",
-            "src": "./img/featherpen1.png",
-            "title": "Front-End",
-            "description": "Lorem ipsurm dolor sit amet, consectutur adipiscing elit. Suspensisse varius eim in eros elemntum tristique"
+            "src": "./img/scoreboard.jpg",
+            "title": "NFL Score Model",
+            "description": "Python model for predicting the outcome of NFL games and eventually other sporting events.",
+            "link": "View in Github",
+            "github": "https://github.com/natelove02/NFL-Model"
         }
     ],
     "testimonials": [

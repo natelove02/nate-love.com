@@ -2,12 +2,13 @@ import data from "../../data/index.json"
 
 export default function MyWork(){
     return(
-        <section className="portfolio--section" id="MyPortfolio">
+        <section className="portfolio--section" id="MyWork">
             <div className="portfolio--container-box">
                 <div className="portfolio-container">
                     <p className="sub--title"> </p>
-                    <h2 className="section--heading"> COMING SOON!</h2>
+                    <h2 className="portfolio--section--heading"> Projects</h2>
                 </div>
+                
                 {/*
                 <div>
                     <button className="btn btn-github">
@@ -28,9 +29,18 @@ export default function MyWork(){
                         Visit My Github
                     </button>
                 </div>
+                
+                */}
             </div>
             <div className="portfolio--section--container">
                 {data?.portfolio?.map((item,index) => (
+                        <a
+                        key={index}
+                        href={item.github}  // Dynamically link to GitHub
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="portfolio--section--card"
+                      >
                     <div key={index} className="portfolio--section--card">
                         <div className="portfolio--section--img">
                             <img src={item.src} alt="Placeholder" />
@@ -59,10 +69,22 @@ export default function MyWork(){
                                 </svg>
                             </p>
                         </div>
-                    </div>    
-                ))}*/}
+                    </div> 
+                </a>   
+                ))}
             </div>
         </section>
 
     )
 }
+
+/*{
+            "id": "3",
+            "src": "./img/pcb.jpg",
+            "title": "Auto Pet Feeder",
+            "description": "Automatic pet feeder using C and C++. Used a custom PCB and 3D printed stand to accurately dispense pet food.",
+            "link": "View in Github",
+            "github": "https://github.com/natelove02/Automatic-Cat-Feeder"
+        } to be added back to the json file once fixed.
+
+        */

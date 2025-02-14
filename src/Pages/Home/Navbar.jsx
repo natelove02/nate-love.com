@@ -46,21 +46,9 @@ function Navbar(){
                         smooth={true}
                         offset={-70}
                         duration={500}
-                        to="heroSection"
+                        to="HeroSection"
                         className="navbar--content">
                             Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link 
-                        onClick={closeMenu} activeClass="navbar--active-content"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                        to="MyPortfolio"
-                        className="navbar--content">
-                            Portfolio
                         </Link>
                     </li>
                     <li>
@@ -76,10 +64,41 @@ function Navbar(){
                         </Link>
                     </li>
                     <li>
-                        <a 
-                        href="./img/nate-love-resume.pdf" target="_blank"
+                        <Link 
+                        onClick={closeMenu} activeClass="navbar--active-content"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        to="MySkills"
                         className="navbar--content">
-                            My Resume
+                            Skills
+                        </Link>
+                    </li>
+                    <li>
+                        <Link 
+                        onClick={closeMenu} activeClass="navbar--active-content"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                        to="MyWork"
+                        className="navbar--content">
+                            Projects
+                        </Link>
+                    </li>
+                    <li>
+                        <a 
+                        href="https://www.linkedin.com/in/nate-love" target="_blank"
+                        className="navbar--content">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                        href="https://github.com/natelove02" target="_blank"
+                        className="navbar--content">
+                            GitHub
                         </a>
                     </li>
                 </ul>
