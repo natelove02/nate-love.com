@@ -9,13 +9,15 @@ export default function AboutMe(){
                     <p className="section--title"></p>
                     <h1 className="skills-section--heading"> About Me</h1>
                     <p className="hero--section-description"> My name is Nate Love. I am from San Antonio and attended UT Austin for an undergraduate degree in Electrical Engineering 
-                        and am currently attending UT Austin for their Master's of Computer Science. </p>
-                    <p className="hero--section-description"> I spent 3 fast-paced and excellent years in the Army as an Armor Officer. I served in various leadership roles at Fort Benning, GA and at Fort Cavazos, TX before
-                        deciding to seperate and move to Fort Worth, TX with my wonderful fiance. The Army presented me with a myriad of leadership experiences that ranged from planning large military exercises,
-                        fundraising, budget and procurement requests, and supply-chain operations. 
+                        and am currently pursuing my Master's of Computer Science with a focus in AI/ML, expected graduation May 2026. </p>
+                    <p className="hero--section-description"> I am a transitioning Army officer with 3+ years of experience as a Data Analyst, leading strategic and operational planning for a Battalion of 500+ soldiers 
+                        and managing $100M+ in equipment. I developed predictive models, led analytics teams, and built automated reporting systems that enhanced data-driven decision-making across complex military operations.
                     </p>
-                    <p className="hero--section-description"> I kept up my engineering skills with personal projects and by utilising the Army's free access to courses to continue to learn in my time off. </p>
-                    <p className="hero--section-description"> In my free time, I love to run, play chess, and hike or climb outdoors as much as possible. I love watching sports and am always keeping up with my Longhorns and Packers. </p>
+                    <p className="hero--section-description"> My professional experience spans data analysis, risk assessment, logistics forecasting, and database management with CRUD operations. 
+                        I've built Excel-based predictive models, coordinated development of warfighting systems using Agile methodologies, and consistently delivered mission-critical insights to command leadership. 
+                    </p>
+                    <p className="hero--section-description"> I bring a mission-driven mindset, proven leadership skills, and sharp learning ability to tackle complex technical challenges. 
+                        In my free time, I love to run, play chess, and hike or climb outdoors as much as possible. I love watching sports and am always keeping up with my Longhorns and Packers. </p>
                 </div>
             </div>
         </section>

@@ -34,14 +34,13 @@ export default function MyWork(){
             </div>
             <div className="portfolio--section--container">
                 {data?.portfolio?.map((item,index) => (
-                        <a
+                    <a
                         key={index}
-                        href={item.github}  // Dynamically link to GitHub
+                        href={item.github}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="portfolio--section--card"
-                      >
-                    <div key={index} className="portfolio--section--card">
+                    >
                         <div className="portfolio--section--img">
                             <img src={item.src} alt="Placeholder" />
                         </div>
@@ -69,8 +68,7 @@ export default function MyWork(){
                                 </svg>
                             </p>
                         </div>
-                    </div> 
-                </a>   
+                    </a>   
                 ))}
             </div>
         </section>

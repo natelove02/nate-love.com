@@ -3,8 +3,8 @@
         {
             "id": "1",
             "src": "./img/projectmanagement.jpeg",
-            "title": "Project Management",
-            "description": "Managed complex army projects with multiple inputs and parameters, ensuring timely delivery and adherence to project goals through effective coordination and resource allocation. Led cross-functional teams to achieve objectives, utilizing strategic planning and problem-solving skills to navigate challenges and drive project success."
+            "title": "Data Analysis",
+            "description": "Led strategic and operational planning for Battalion of 500+ soldiers with $100M+ in equipment. Developed predictive models, managed analytics teams, and built automated reporting systems that enhanced data-driven decision-making across complex military operations and logistics forecasting."
         },
         {
             "id": "2",
@@ -30,7 +30,7 @@
             "id": "1",
             "src": "./img/nodejs.jpg",
             "title": "Personal Website",
-            "description": "Link to this website's code. Node.JS and React app with HTML and CSS to create personal website.",
+            "description": "Node.JS and React app with HTML and CSS to create personal website. Deployed using AWS Route53 DNS, EC2 VPS, and Caddy reverse-proxy.",
             "link": "View in Github",
             "github": "https://github.com/natelove02/nate-love.com"
 
@@ -38,10 +38,26 @@
         {
             "id": "2",
             "src": "./img/scoreboard.jpg",
-            "title": "NFL Score Model",
-            "description": "Python model for predicting the outcome of NFL games and eventually other sporting events.",
+            "title": "Modeling for Sports Outcomes",
+            "description": "Built end-to-end data pipeline using Python scripting and web scraping to extract NFL game data. Applied statistical analysis with PyTorch, XGBoost, and scikit-learn. Engineered custom features including Elo ratings and rolling averages with automated visualization.",
             "link": "View in Github",
             "github": "https://github.com/natelove02/NFL-Model"
+        },
+        {
+            "id": "3",
+            "src": "./img/tuxkart.jpg",
+            "title": "Deep Learning Image Classifier",
+            "description": "Implemented multiple neural network architectures (Linear, MLP, Deep MLP, Residual networks) using PyTorch for kart racing game object classification achieving 80%+ validation accuracy. Built end-to-end training pipeline with TensorBoard experiment tracking.",
+            "link": "View in Github",
+            "github": "https://github.com/natelove02/Deep-Learning-Classifier"
+        },
+        {
+            "id": "4",
+            "src": "./img/pcb.jpg",
+            "title": "Automatic Pet Feeder",
+            "description": "Embedded systems project using C, C++, and ARM Assembly language. Custom PCB design with 3D printed housing for precise pet food dispensing. Demonstrates low-level programming and hardware integration skills.",
+            "link": "View in Github",
+            "github": "https://github.com/natelove02/Automatic-Cat-Feeder"
         }
     ],
     "testimonials": [
