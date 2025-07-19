@@ -16,8 +16,8 @@ function Navbar(){
 
     useEffect(() => {
         const handleResize = () =>{
-            if(window.innerWidth <= 500) {
-                closeMenu
+            if(window.innerWidth <= 768) {
+                closeMenu();
             }
         };
         window.addEventListener("resize",handleResize);
@@ -28,7 +28,9 @@ function Navbar(){
     },[]);
 
     useEffect(() =>{
-        if(window.innerWidth <= 1200){ closeMenu };
+        if(window.innerWidth <= 768){ 
+            closeMenu();
+        }
     }, [] );
     
     return(

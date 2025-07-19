@@ -55,7 +55,7 @@
             "id": "4",
             "src": "./img/pcb.jpg",
             "title": "Automatic Pet Feeder",
-            "description": "Embedded systems project using C, C++, and ARM Assembly language. Custom PCB design with 3D printed housing for precise pet food dispensing. Demonstrates low-level programming and hardware integration skills.",
+            "description": "Embedded systems project using C, C++, and ARM Assembly language. Custom PCB design with 3D printed housing for precise pet food dispensing. Successfully presented to professors and classmates in a large academic demonstration.",
             "link": "View in Github",
             "github": "https://github.com/natelove02/Automatic-Cat-Feeder"
         }

@@ -173,6 +173,7 @@ h3{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
 }
 .navbar--items > ul{
     list-style: none;
@@ -180,6 +181,8 @@ h3{
     align-items: flex-start;
     gap: 42.667px;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 .navbar--items ul > li > a{
     text-decoration: none;
@@ -626,9 +629,6 @@ input[type="checkbox"] {
 }
 
 @media only screen and (max-width: 1200px) {
-  .btn-outline-primary {
-    display: none;
-  }
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
@@ -700,8 +700,7 @@ input[type="checkbox"] {
   }
 }
 
-/* Hamburger menu  */
-
+/* Hamburger menu - hide by default */
 .nav__hamburger {
   display: none;
   width: 1.875rem;
@@ -722,44 +721,77 @@ input[type="checkbox"] {
   transition: all ease-in-out 0.2s;
 }
 
-@media screen and (max-width: 1200px) {
+/* Hide contact button on medium screens first */
+@media screen and (max-width: 900px) {
+  .btn-outline-primary {
+    display: none;
+  }
+  .navbar {
+    padding: 15px 40px;
+  }
+}
+
+/* Hide navbar items on mobile, show hamburger */
+@media screen and (max-width: 768px) {
+  .navbar--items {
+    display: none;
+  }
+  
+  .navbar--items.active {
+    display: flex;
+  }
+}
+
+/* Show hamburger menu on smaller screens */
+@media screen and (max-width: 768px) {
   .nav__hamburger {
     display: flex;
     z-index: 200;
   }
-  .navbar--items {
-    display: flex;
+  
+  .navbar {
+    padding: 15px 20px;
   }
+  
   .navbar--items {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(10px);
     top: -20rem;
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
   }
+  
   .navbar--items ul {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 3rem 0 0.6rem;
-    z-index: -100;
+    padding: 2rem 0 1rem;
+    margin: 0;
+    gap: 1rem;
   }
+  
   .navbar--items ul li {
     text-align: center;
+    width: 100%;
   }
+  
   .navbar--items ul li a {
-    padding: 0.5rem;
+    padding: 0.8rem;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
   }
-  .navbar--items {
-    z-index: -1000;
-  }
+  
   .navbar--items.active {
-    top: 30px;
+    top: 60px;
   }
+  
   .nav__hamburger.active :nth-child(1) {
     transform: rotate(45deg) translate(0.45rem, 0.1875rem);
   }
