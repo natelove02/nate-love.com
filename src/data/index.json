@@ -22,7 +22,7 @@
             "id": "4",
             "src": "./img/python.png",
             "title": "Python/Modeling",
-            "description": "Utilized Python to solve labs and problems during college coursework, developing strong fundamentals in coding. Built a backend using Python with Flask and DynamoDB for our senior design project, enhancing web development skills and backend design. Currently utilizing PyTorch, Beautiful Soup, and pandas to construct a convolutional neural network (CNN), demonstrating proficiency in machine learning and data processing."
+            "description": "Currently use Python for deep learning (PyTorch), computer vision, and data engineering. Built vision-language models, autonomous driving planners, and custom data pipelines for research and portfolio projects. Experienced with web scraping, model making, and scientific computing."
         }
     ],
     "portfolio": [
@@ -46,10 +46,10 @@
         {
             "id": "3",
             "src": "./img/tuxkart.jpg",
-            "title": "Deep Learning Image Classifier",
-            "description": "Implemented multiple neural network architectures (Linear, MLP, Deep MLP, Residual networks) using PyTorch for kart racing game object classification achieving 80%+ validation accuracy. Built end-to-end training pipeline with TensorBoard experiment tracking.",
+            "title": "Deep Learning for Autonomous Driving – SuperTuxKart",
+            "description": "Built and benchmarked deep learning planners (MLP, Transformer, CNN) for end-to-end autonomous driving in SuperTuxKart, achieving top scores with a modular, reproducible pipeline.",
             "link": "View in Github",
-            "github": "https://github.com/natelove02/Deep-Learning-Classifier"
+            "github": "https://github.com/natelove02/TuxKartModel"
         },
         {
             "id": "4",
@@ -58,6 +58,14 @@
             "description": "Embedded systems project using C, C++, and ARM Assembly language. Custom PCB design with 3D printed housing for precise pet food dispensing. Successfully presented to professors and classmates in a large academic demonstration.",
             "link": "View in Github",
             "github": "https://github.com/natelove02/Automatic-Cat-Feeder"
+        },
+        {
+            "id": "5",
+            "src": "./img/tuxkart.jpg",
+            "title": "TuxKartVision – Vision Language Models for SuperTuxKart",
+            "description": "Developed generative and contrastive vision-language models for SuperTuxKart, enabling image-based question answering and spatial reasoning using transformer and CLIP architectures.",
+            "link": "View in Github",
+            "github": "https://github.com/natelove02/TuxKartVision"
         }
     ],
     "testimonials": [

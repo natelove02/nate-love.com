@@ -18,10 +18,10 @@ export default function MastersPost() {
                 <section>
                     <h2>Making the Transition</h2>
                     <p>
-                        After years in the military managing complex operations and leading teams, transitioning 
+                        After 3 years in the military as an Armor Officer, dealing with tanks, soldiers, and 
+                        fast paced operational planning; transitioning
                         into graduate-level computer science has been both challenging and incredibly rewarding. 
-                        When I decided to pursue my Master's in Computer Science at UT Austin with a focus on 
-                        Machine Learning and AI, I knew it would push me in new directions—but I wasn't fully 
+                        When I decided to pursue my Master's in Computer Science at UT, I knew it would push me in new directions—but I wasn't fully 
                         prepared for how much I would grow in just one semester.
                     </p>
                 </section>
@@ -33,15 +33,17 @@ export default function MastersPost() {
                         in my areas of interest while challenging me to think differently about problem-solving:
                     </p>
 
-                    <h3>Algorithms and Optimization (CS 378)</h3>
+                    <h3>Algorithms and Optimization</h3>
                     <p>
-                        This course formed the theoretical backbone of my first semester, diving deep into 
-                        algorithm design, analysis, and optimization techniques. We covered everything from 
+                        These courses formed the theoretical backbone of my first semester, diving deep into 
+                        algorithm design, analysis, and optimization techniques. In Algorithms, we covered everything from 
                         fundamental sorting and searching algorithms to advanced topics like dynamic programming, 
-                        graph algorithms, and complexity theory.
+                        graph algorithms, and complexity theory. In Optimization, we touched on linear programming,
+                        convex optimization, and what I learned to be the most important topic: gradient descent and its variants.
                     </p>
                     <p>
-                        The mathematical rigor was intense—analyzing time and space complexity, proving 
+                        The mathematical rigor was intense. Many homeworks and projects were spent 
+                        analyzing time and space complexity, proving 
                         correctness, and understanding the theoretical limits of computation. This foundation 
                         has been invaluable for all my other coursework and projects.
                     </p>
@@ -54,6 +56,7 @@ export default function MastersPost() {
                         <li>Optimization problems and approximation algorithms</li>
                         <li>Complexity analysis and Big-O notation mastery</li>
                         <li>Data structures optimization for algorithmic efficiency</li>
+                        <li>Gradient descent and its variants for optimization tasks</li>
                     </ul>
                 </section>
 
@@ -66,21 +69,14 @@ export default function MastersPost() {
 
                     <h3>Project Management Skills</h3>
                     <p>
-                        Managing multi-week coding projects with tight deadlines felt familiar. The 
-                        discipline and organizational skills from military service translated well to 
-                        managing complex assignments with multiple moving parts.
-                    </p>
-
-                    <h3>Systems Thinking</h3>
-                    <p>
-                        Understanding how different components of a machine learning pipeline interact 
-                        reminded me of coordinating complex military operations. Both require careful 
-                        attention to how individual pieces affect the whole system.
+                        Managing multi-week homeworks and coding projects with tight deadlines felt familiar. The 
+                        discipline and organizational skills from staff work and my planning team translated well to 
+                        managing assignments with multiple moving parts.
                     </p>
 
                     <h3>Problem-Solving Under Pressure</h3>
                     <p>
-                        Late-night debugging sessions before project deadlines tested problem-solving 
+                        Late-night programming sessions before project and homework deadlines tested problem-solving 
                         skills in ways that felt familiar yet entirely new. The persistence and 
                         methodical approach I learned in the military served me well.
                     </p>
@@ -91,74 +87,18 @@ export default function MastersPost() {
                     
                     <h3>Mathematical Foundations</h3>
                     <p>
-                        The mathematical rigor was probably my biggest adjustment. While I had engineering 
+                        The mathematical rigor was probably my biggest adjustment. While I had a solid engineering 
                         math background, diving deep into linear algebra for machine learning and understanding 
-                        the mathematical proofs behind algorithms required dedicated study time.
+                        the mathematical proofs behind algorithms required a significant amount of dedicated study time. It was nice to be able to give myself
+                        this time as I transitioned and entered my terminal leave from the Army.
                     </p>
                     <p>
-                        I spent countless hours working through matrix operations, eigenvalue decompositions, 
-                        and gradient calculations. Khan Academy and YouTube became close friends during 
-                        late-night study sessions.
+                        I spent countless hours working through matrix operations, Big O notations, 
+                        and gradient calculations. The textbook and even research papers became close friends during 
+                        late-night study sessions. That is something that I have kept up with as well and continue to enjoy
+                        reading and implementing research papers.
                     </p>
 
-                    <h3>Programming at Scale</h3>
-                    <p>
-                        Moving from smaller embedded systems projects to large-scale machine learning 
-                        implementations was a significant step up. Learning to work with frameworks 
-                        like PyTorch and TensorFlow, handling large datasets, and optimizing code 
-                        for performance opened up entirely new programming paradigms.
-                    </p>
-
-                    <h3>Research and Academic Writing</h3>
-                    <p>
-                        The transition from technical military documentation to academic research papers 
-                        was challenging. Learning to read dense research papers, understand experimental 
-                        methodologies, and communicate findings in academic formats took significant effort.
-                    </p>
-                </section>
-
-                <section>
-                    <h2>Standout Projects and Achievements</h2>
-                    
-                    <h3>Algorithm Implementation Projects</h3>
-                    <p>
-                        One of the most valuable exercises was implementing complex algorithms from scratch. 
-                        This taught me to bridge the gap between theoretical understanding and practical 
-                        implementation—a skill that's proving invaluable as I consider research directions.
-                    </p>
-
-                    <h3>Optimization Techniques Application</h3>
-                    <p>
-                        I was able to apply optimization concepts directly to my ongoing NFL prediction model project. 
-                        Techniques learned in class—like proper algorithm selection, complexity analysis, and 
-                        optimization strategies—significantly improved my model's performance and efficiency.
-                    </p>
-                </section>
-
-                <section>
-                    <h2>The UT Austin Experience</h2>
-                    
-                    <h3>Academic Environment</h3>
-                    <p>
-                        The academic environment at UT Austin has been incredibly stimulating. Being surrounded 
-                        by brilliant faculty and motivated graduate students creates an atmosphere that pushes 
-                        everyone to excel. The diversity of backgrounds—from fresh undergrads to industry 
-                        professionals like myself—brings rich perspectives to every discussion.
-                    </p>
-
-                    <h3>Research Opportunities</h3>
-                    <p>
-                        I've started exploring research opportunities in the Computer Vision and AI Safety labs. 
-                        The prospect of contributing to cutting-edge research while completing my degree is 
-                        exciting and aligns with my long-term career goals.
-                    </p>
-
-                    <h3>Industry Connections</h3>
-                    <p>
-                        Austin's thriving tech scene provides excellent networking and internship opportunities. 
-                        I've attended several industry talks and meetups, building connections that will be 
-                        valuable for my career transition.
-                    </p>
                 </section>
 
                 <section>
@@ -168,7 +108,7 @@ export default function MastersPost() {
                     <p>
                         The transition from military service to graduate school is steep, but every challenge 
                         is an opportunity to grow. I learned to be comfortable with temporary confusion while 
-                        working through complex concepts.
+                        working through complex and new concepts. It was also refreshing to focus on my own growth rather than a larger mission or team.
                     </p>
 
                     <h3>Leverage Your Background</h3>
@@ -182,38 +122,32 @@ export default function MastersPost() {
                     <p>
                         Forming study groups with classmates was crucial for success. Explaining concepts 
                         to others and working through problems together deepened my understanding and made 
-                        challenging material more manageable.
+                        challenging material more manageable. There is a surprisingly large veteran community in my program and
+                        it is always nice to connect with others who have a similar background.
                     </p>
 
                     <h3>Connect Theory to Practice</h3>
                     <p>
                         The most meaningful learning happened when I could connect theoretical concepts to 
-                        real-world applications. My NFL prediction model became a testing ground for 
+                        real-world applications. My personal projects have become a testing ground for 
                         classroom concepts, making abstract ideas concrete and memorable.
                     </p>
                 </section>
 
                 <section>
-                    <h2>Looking Ahead: Spring Semester and Beyond</h2>
+                    <h2>Looking Ahead: Summer Semester and Beyond</h2>
                     <p>
                         As I prepare for my second semester, I'm excited to dive deeper into specialized 
-                        areas of AI and machine learning:
+                        areas of AI and machine learning. It will be valuable to have focused time for study and growth as I continue this transition.
                     </p>
 
                     <h3>Upcoming Courses</h3>
                     <ul>
                         <li><strong>Machine Learning:</strong> Diving into supervised/unsupervised learning and neural networks</li>
-                        <li><strong>Computer Vision:</strong> Image processing and visual recognition systems</li>
-                        <li><strong>Natural Language Processing:</strong> Text analysis and language understanding</li>
+                        <li><strong>Deep Learning:</strong> Exploring advanced neural network architectures and their applications</li>
+                        <li><strong>Advances in Deep Learning:</strong> Taking a deeper dive into neural networks with a large focus on computer vision</li>
                     </ul>
-
-                    <h3>Research Goals</h3>
-                    <p>
-                        I'm planning to get more involved in research, particularly in areas where AI 
-                        intersects with real-world applications like healthcare, autonomous systems, 
-                        or defense applications where my clearance and military background could be valuable.
-                    </p>
-
+   
                     <h3>Industry Preparation</h3>
                     <p>
                         I'm also looking ahead to summer internship opportunities and building the 
@@ -232,7 +166,7 @@ export default function MastersPost() {
                     <ul>
                         <li><strong>Prepare for the Math:</strong> Brush up on linear algebra, calculus, and statistics before starting</li>
                         <li><strong>Start Coding Early:</strong> Begin building programming skills in Python, especially for data science</li>
-                        <li><strong>Read Research Papers:</strong> Get comfortable with academic literature in your area of interest</li>
+                        <li><strong>Read Research Papers:</strong> Get comfortable with academic literature in your area of interest. Try to implement them if feasible!</li>
                         <li><strong>Leverage Your Experience:</strong> Don't hide your military background—it brings valuable perspectives</li>
                         <li><strong>Build Projects:</strong> Apply classroom concepts to personal projects for deeper understanding</li>
                         <li><strong>Network Actively:</strong> Connect with faculty, students, and industry professionals</li>
@@ -257,7 +191,7 @@ export default function MastersPost() {
                     </p>
 
                     <p>
-                        As I look toward spring semester and the rest of my Master's program, I'm 
+                        As I look toward the summer semester and the rest of my Master's program, I'm 
                         excited to continue this journey of growth and discovery. The intersection 
                         of artificial intelligence, machine learning, and real-world problem-solving 
                         represents exactly the kind of challenging, impactful work I want to be doing 

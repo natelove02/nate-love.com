@@ -1,179 +1,91 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function NFLModelPost() {
+export default function DeepLearningPost() {
     return (
         <div className="blog-post">
             <div className="blog-post-header">
                 <Link to="/blog" className="back-to-blog">← Back to Blog</Link>
                 <div className="blog-post-meta">
-                    <span className="blog-post-date">January 2025</span>
-                    <span className="blog-post-category">Machine Learning</span>
+                    <span className="blog-post-date">September 2025</span>
+                    <span className="blog-post-category">Deep Learning</span>
                 </div>
-                <h1 className="blog-post-title">Building an NFL Prediction Model: From Data to Predictions</h1>
-                <img src="./img/scoreboard.jpg" alt="NFL Scoreboard" className="blog-post-hero-image" />
+                <h1 className="blog-post-title">Vision-Language Models and Autonomous Driving in SuperTuxKart</h1>
+                <img src="./img/tuxkart.jpg" alt="SuperTuxKart" className="blog-post-hero-image" />
             </div>
 
             <div className="blog-post-content">
                 <section>
-                    <h2>The Challenge</h2>
+                    <h2>Project Overview</h2>
                     <p>
-                        Predicting NFL game outcomes is one of the most challenging problems in sports analytics. 
-                        With 32 teams, countless variables, and the inherent unpredictability of football, building 
-                        an accurate prediction model requires careful consideration of multiple factors and sophisticated 
-                        machine learning techniques.
+                        I developed two advanced machine learning projects using the SuperTuxKart racing game as a testbed: TuxKartVision (vision-language models) and deep learning planners for autonomous driving. Both projects demonstrate state-of-the-art computer vision, NLP, and reinforcement learning techniques applied to dynamic, real-world-like environments.
                     </p>
                 </section>
 
                 <section>
-                    <h2>Data Collection and Preprocessing</h2>
+                    <h2>TuxKartVision: Vision-Language Models</h2>
                     <p>
-                        The foundation of any good prediction model is quality data. For this project, I collected 
-                        comprehensive NFL data including:
+                        TuxKartVision implements a generative multimodal transformer (MLLM) and a contrastive CLIP-style model for image-text understanding and multi-choice question answering. The system processes SuperTuxKart gameplay images and contextual questions, handling spatial reasoning, object detection, and situational awareness.
                     </p>
                     <ul>
-                        <li><strong>Team Statistics:</strong> Offensive and defensive metrics, yards per game, points scored/allowed</li>
-                        <li><strong>Player Performance:</strong> Key player injuries, quarterback ratings, rushing yards</li>
-                        <li><strong>Historical Data:</strong> Head-to-head records, home/away performance</li>
-                        <li><strong>Environmental Factors:</strong> Weather conditions, travel distance, rest days</li>
-                        <li><strong>Advanced Metrics:</strong> Expected points added (EPA), success rate, DVOA ratings</li>
+                        <li>Automated question-answer and caption generation from game metadata (200k+ examples)</li>
+                        <li>Custom CLIP implementation with attention-weighted pooling and robust contrastive learning</li>
+                        <li>Optimized training pipeline: gradient checkpointing, LoRA fine-tuning, large-batch support</li>
                     </ul>
-                    
                     <p>
-                        Using Python's Beautiful Soup library, I scraped data from multiple sources and created 
-                        a comprehensive dataset spanning multiple seasons. The data preprocessing phase involved 
-                        handling missing values, normalizing statistics, and creating meaningful feature engineering.
+                        <strong>Results:</strong> The models achieve strong performance on vision-language tasks, including robust QA and high accuracy on multi-choice questions.
+                    </p>
+                    <p>
+                        <a href="https://github.com/natelove02/TuxKartVision" target="_blank" rel="noopener noreferrer">View TuxKartVision on GitHub →</a>
                     </p>
                 </section>
 
                 <section>
-                    <h2>Model Architecture</h2>
+                    <h2>Deep Learning for Autonomous Driving</h2>
                     <p>
-                        I experimented with several machine learning approaches before settling on a hybrid model:
-                    </p>
-                    
-                    <h3>1. Convolutional Neural Network (CNN)</h3>
-                    <p>
-                        Using PyTorch, I built a CNN that processes team statistics as 2D matrices, allowing the 
-                        model to identify spatial patterns in team performance metrics. This approach proved 
-                        particularly effective at recognizing complex relationships between offensive and defensive statistics.
-                    </p>
-
-                    <h3>2. Feature Engineering Pipeline</h3>
-                    <p>
-                        I created several derived features that significantly improved model performance:
+                        This project implements and benchmarks MLP, Transformer, and CNN-based planners for end-to-end autonomous driving in SuperTuxKart. Each model was trained and evaluated using a custom pipeline and grader, leveraging state, boundary, and image data to control a kart in the game.
                     </p>
                     <ul>
-                        <li>Momentum indicators (recent form over last 4 games)</li>
-                        <li>Strength of schedule adjustments</li>
-                        <li>Home field advantage quantification</li>
-                        <li>Rest and travel impact factors</li>
+                        <li>MLPPlanner: Multi-layer perceptron for state and boundary data</li>
+                        <li>TransformerPlanner: Perceiver-style cross-attention for fusing state and boundary info</li>
+                        <li>CNNPlanner: Convolutional neural network for direct perception-based control</li>
+                        <li>Automated grader measures lateral error, off-track rate, and driving score</li>
+                        <li>Flexible, modular training and evaluation pipeline</li>
                     </ul>
-
-                    <h3>3. Ensemble Approach</h3>
                     <p>
-                        The final model combines predictions from multiple algorithms:
+                        <strong>Results:</strong>
                     </p>
                     <ul>
-                        <li>CNN for pattern recognition in team statistics</li>
-                        <li>Random Forest for handling categorical variables</li>
-                        <li>Gradient Boosting for final prediction refinement</li>
+                        <li>MLPPlanner: Score 0.97, Lateral Error 0.12, Off-Track Rate 0.03</li>
+                        <li>TransformerPlanner: Score 0.95–0.98, Lateral Error 0.13–0.15, Off-Track Rate 0.02–0.04</li>
+                        <li>CNNPlanner: Score 0.96, Lateral Error 0.14, Off-Track Rate 0.03</li>
+                    </ul>
+                    <p>
+                        <strong>Key Features:</strong> Flexible data pipelines, custom grader, reproducible results, and ready-to-showcase code. <a href="https://github.com/natelove02/TuxKartModel" target="_blank" rel="noopener noreferrer">View Autonomous Driving Project on GitHub →</a>
+                    </p>
+                </section>
+
+                <section>
+                    <h2>Technical Highlights</h2>
+                    <ul>
+                        <li>Advanced data generation: automated QA and caption pipelines, spatial reasoning logic</li>
+                        <li>Memory and training efficiency: gradient checkpointing, large-batch support, LoRA</li>
+                        <li>Production-ready: robust error handling, logging, and monitoring</li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2>Results and Performance</h2>
+                    <h2>Applications and Impact</h2>
                     <p>
-                        After extensive testing and validation, the model achieved:
-                    </p>
-                    <ul>
-                        <li><strong>Accuracy:</strong> 63.2% on game outcomes (win/loss)</li>
-                        <li><strong>Spread Accuracy:</strong> 58.7% against the betting spread</li>
-                        <li><strong>Over/Under:</strong> 61.4% accuracy on total points predictions</li>
-                    </ul>
-
-                    <p>
-                        These results consistently outperformed basic statistical models and random chance, 
-                        demonstrating the value of machine learning approaches in sports prediction.
-                    </p>
-                </section>
-
-                <section>
-                    <h2>Key Learnings and Challenges</h2>
-                    
-                    <h3>Data Quality is Everything</h3>
-                    <p>
-                        The biggest lesson was the importance of clean, consistent data. NFL statistics 
-                        can be reported differently across sources, and handling these inconsistencies 
-                        was crucial for model performance.
-                    </p>
-
-                    <h3>Feature Selection Matters</h3>
-                    <p>
-                        Not all statistics are predictive. Through extensive testing, I found that 
-                        recent performance weighted more heavily than season averages, and certain 
-                        advanced metrics like EPA were more predictive than traditional box score stats.
-                    </p>
-
-                    <h3>The Unpredictability Factor</h3>
-                    <p>
-                        Football has an inherent randomness that limits prediction accuracy. Injuries, 
-                        weather, and pure chance play significant roles that even the best models 
-                        struggle to capture completely.
-                    </p>
-                </section>
-
-                <section>
-                    <h2>Technical Implementation</h2>
-                    <p>
-                        The project leveraged several key technologies:
-                    </p>
-                    <ul>
-                        <li><strong>Python:</strong> Primary development language</li>
-                        <li><strong>PyTorch:</strong> Deep learning framework for CNN implementation</li>
-                        <li><strong>pandas:</strong> Data manipulation and analysis</li>
-                        <li><strong>Beautiful Soup:</strong> Web scraping for data collection</li>
-                        <li><strong>scikit-learn:</strong> Traditional ML algorithms and preprocessing</li>
-                        <li><strong>matplotlib/seaborn:</strong> Data visualization and analysis</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>Future Improvements</h2>
-                    <p>
-                        There are several areas where I plan to enhance the model:
-                    </p>
-                    <ul>
-                        <li>Real-time data integration for live odds and injury reports</li>
-                        <li>Player-level modeling for more granular predictions</li>
-                        <li>Advanced weather impact analysis</li>
-                        <li>Expansion to other sports (NBA, MLB)</li>
-                        <li>Development of a web interface for easy prediction access</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>Conclusion</h2>
-                    <p>
-                        Building this NFL prediction model has been an incredible learning experience that 
-                        combined my interests in sports, data science, and machine learning. While perfect 
-                        prediction remains elusive (and probably impossible), the project demonstrated 
-                        the power of combining domain knowledge with advanced analytics.
-                    </p>
-                    
-                    <p>
-                        The skills I developed in data collection, preprocessing, model selection, and 
-                        evaluation have been invaluable for my broader machine learning journey and 
-                        complement the theoretical knowledge I'm gaining in my Master's program at UT Austin.
+                        These projects showcase practical applications of deep learning in autonomous systems, computer vision, and multimodal AI. They serve as reference implementations for vision-language modeling, contrastive learning, and end-to-end driving in simulated environments.
                     </p>
                 </section>
 
                 <div className="blog-post-footer">
                     <p>
-                        <strong>Check out the code:</strong> 
-                        <a href="https://github.com/natelove02/NFL-Model" target="_blank" rel="noopener noreferrer"> 
-                            View on GitHub →
-                        </a>
+                        <strong>Explore the code:</strong>
+                        <a href="https://github.com/natelove02/TuxKartVision" target="_blank" rel="noopener noreferrer"> TuxKartVision</a> |
+                        <a href="https://github.com/natelove02/TuxKartModel" target="_blank" rel="noopener noreferrer"> Autonomous Driving</a>
                     </p>
                 </div>
             </div>

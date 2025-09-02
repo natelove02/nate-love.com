@@ -4,20 +4,21 @@ import { Link } from 'react-router-dom';
 export default function BlogHome() {
     const blogPosts = [
         {
-            id: 1,
-            title: "Building an NFL Prediction Model",
-            description: "Deep dive into my NFL game prediction model using Python, machine learning, and statistical analysis.",
-            date: "January 2025",
-            link: "/blog/nfl-model",
-            image: "./img/scoreboard.jpg"
-        },
-        {
             id: 2,
             title: "First Semester of My Master's Program",
             description: "Reflections on my first semester at UT Austin's Master's of Computer Science program, focusing on Algorithms and Optimization.",
             date: "May 2025",
             link: "/blog/masters-semester-1",
             image: "./img/about-me.jpeg"
+        },
+        
+        {
+            id: 1,
+            title: "Building Deep Learning Models with SuperTuxKart",
+            description: "My expereience building vision-language models and autonomous driving systems using deep learning techniques in SuperTuxKart.",
+            date: "July 2025",
+            link: "/blog/DeepLearningPost",
+            image: "./img/tuxkartdriving.png"
         }
     ];
 
