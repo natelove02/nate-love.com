@@ -1,3 +1,7 @@
+# View my Project Progress Here
+
+[![GitHub Project Board](https://img.shields.io/badge/Project-Board-blue?logo=github)](https://github.com/users/natelove02/projects/3)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
